@@ -1,0 +1,140 @@
+// # Kateqoriyalar səhifəsinə giriş
+// * MP3 oyna: "Kateqoriyalar düyməsinə vururam"
+// * Obyektə vur (XPath ilə): "//span[text()='Kateqoriyalar' and contains(@class, 'fw-700') and contains(@class, 'fs-16')]"
+// * "2" saniyə gözlə
+
+// * MP3 oyna: "Elektronika və Texnika düyməsinə vururam"
+// * Obyektə vur (XPath ilə): "(//a[@href='https://www.hamisiburada.az/category/elektronika-ve-texnika']/span[@class='cat-name has-transition' and contains(., 'Elektronika Və Texnika')])[1]"
+
+// # Qiymətlərin sıralanması
+// * MP3 oyna: "Sırala düyməsinə vururam"
+// * Obyektə vur (XPath ilə): "//div[@class='filter-option-inner-inner' and text()='Sırala']"
+// * "1" saniyə gözlə
+
+// * MP3 oyna: "Qiyməti çoxdan aza doğru təyin edirəm"
+// * Obyektə vur (XPath ilə): "//span[@class='text' and text()='Qiymət çoxdan aza']"
+// * "1" saniyə gözlə
+// # Qiymətlərin azalan sıra ilə getdiyini yoxlayıram
+// * MP3 oyna: "Qiymətlərin azalan sıra ilə getdiyini yoxlayıram"
+// * Məhsullar qiymətə görə azalan sırada sıralanmalıdır: XPath="//span[@class='fw-700 text-primary']"
+// * "1" saniyə gözlə
+// * MP3 oyna: "Qiymətlər azalan sıra ilə sıralanmışdır,test uğurla bitdi"
+// * "1" saniyə gözlə
+// * Chrome'u bağla
+
+
+# Sehifeye keçid
+* Ekranı kiçik zoom et "75" %
+* MP3 oyna: "Səhifənin alt hissəsinə keçid edirəm"
+* Go Into View: xpath = "//i[@class='lab la-facebook-f']"
+* "1" saniyə gözlə 
+
+* MP3 oyna: "Facebook düyməsinə vururam"
+* Obyektə vur (XPath ilə): "//i[@class='lab la-facebook-f']"
+ * "2" saniyə gözlə 
+#Adresin düzgünlüyünün yoxlanması
+* MP3 oyna: "Adresin düzgünlüyünü yoxlayıram"
+* Yeni açılan browser tab'inə geç
+* YOXLA: Səhifə URLi bumu: "https://www.facebook.com/hamisiburadaAZE/"
+ * "2" saniyə gözlə
+* MP3 oyna: "Adres düzgün açılmıştır,test uğurla bitdi"
+
+* MP3 oyna: "Facebook tabını bağlayıram"
+* Yeni acilan browser tab'ini bagla
+* "1" saniyə gözlə
+
+* Chrome'u bağla
+
+
+# X Sehifeyesine keçid
+* Ekranı kiçik zoom et "75" %
+* MP3 oyna: "Səhifənin alt hissəsinə keçid edirəm"
+* Go Into View: xpath = "//a[@href='https://x.com/hamisiburadaaz' and @class='twitter']"
+* "1" saniyə gözlə 
+
+* MP3 oyna: "X düyməsinə vururam"
+* Obyektə vur (XPath ilə): "//a[@href='https://x.com/hamisiburadaaz' and @class='twitter']"
+ * "2" saniyə gözlə 
+#X-in Adresinin düzgünlüyünün yoxlanması
+* MP3 oyna: "X-in Adresinin düzgünlüyünü yoxlayıram"
+* Yeni açılan browser tab'inə geç
+* YOXLA: Səhifə URLi bumu: "https://x.com/hamisiburadaaz"
+ * "2" saniyə gözlə
+* MP3 oyna: "Adres düzgün açılmıştır,test uğurla bitdi"
+
+* MP3 oyna: "X tabını bağlayıram"
+* Yeni acilan browser tab'ini bagla
+* "1" saniyə gözlə
+
+* Chrome'u bağla
+
+
+# Instagram Sehifeyesine keçid
+* Ekranı kiçik zoom et "75" %
+* MP3 oyna: "Səhifənin alt hissəsinə keçid edirəm"
+* Go Into View: xpath = "//a[@href='https://x.com/hamisiburadaaz' and @class='twitter']"
+* "1" saniyə gözlə 
+
+* MP3 oyna: "Instagram düyməsinə vururam"
+* Obyektə vur (XPath ilə): "//a[@href='https://www.instagram.com/hamisiburada.az/?hl=en' and @class='instagram']"
+ * "2" saniyə gözlə 
+#Instagram Adresinin düzgünlüyünün yoxlanması
+* MP3 oyna: "Instagram Adresinin düzgünlüyünü yoxlayıram"
+* Yeni açılan browser tab'inə geç
+* YOXLA: Səhifə URLi bumu: "https://www.instagram.com/hamisiburada.az/?hl=en"
+ * "2" saniyə gözlə
+* MP3 oyna: "Adres düzgün açılmıştır,test uğurla bitdi"
+
+* MP3 oyna: "Instagram tabını bağlayıram"
+* Yeni acilan browser tab'ini bagla
+* "3" saniyə gözlə
+
+* Chrome'u bağla
+
+
+# Youtube Sehifeyesine keçid
+* Ekranı kiçik zoom et "75" %
+* MP3 oyna: "Səhifənin alt hissəsinə keçid edirəm"
+* Go Into View: xpath = "//a[@href='https://x.com/hamisiburadaaz' and @class='twitter']"
+* "1" saniyə gözlə 
+
+* MP3 oyna: "Youtube düyməsinə vururam"
+* Obyektə vur (XPath ilə): "//a[@href='https://www.youtube.com/@hamisiburada.az-onlaynals-7132' and @class='youtube']"
+ * "2" saniyə gözlə 
+#Youtube Adresinin düzgünlüyünün yoxlanması
+* MP3 oyna: "Youtube Adresinin düzgünlüyünü yoxlayıram"
+* Yeni açılan browser tab'inə geç
+* YOXLA: Səhifə URLi bumu: "https://www.youtube.com/@hamisiburada.az-onlaynals-7132"
+ * "2" saniyə gözlə
+* MP3 oyna: "Adres düzgün açılmıştır,test uğurla bitdi"
+
+* MP3 oyna: "Youtube tabını bağlayıram"
+* Yeni acilan browser tab'ini bagla
+* "3" saniyə gözlə
+
+* Chrome'u bağla
+
+
+
+
+# Tiktok Sehifeyesine keçid
+* Ekranı kiçik zoom et "75" %
+* MP3 oyna: "Səhifənin alt hissəsinə keçid edirəm"
+* Go Into View: xpath = "//a[@href='https://x.com/hamisiburadaaz' and @class='twitter']"
+* "1" saniyə gözlə 
+
+* MP3 oyna: "Tiktok düyməsinə vururam"
+* Obyektə vur (XPath ilə): "//a[@href='https://www.tiktok.com/@hamisiburada.az' and @class='linkedin']"
+ * "2" saniyə gözlə 
+#Tiktok Adresinin düzgünlüyünün yoxlanması
+* MP3 oyna: "Tiktok Adresinin düzgünlüyünü yoxlayıram"
+* Yeni açılan browser tab'inə geç
+* YOXLA: Səhifə URLi bumu: "https://www.tiktok.com/@hamisiburada.az"
+ * "2" saniyə gözlə
+* MP3 oyna: "Adres düzgün açılmıştır,test uğurla bitdi"
+
+* MP3 oyna: "Tiktok tabını bağlayıram"
+* Yeni acilan browser tab'ini bagla
+* "3" saniyə gözlə
+
+* Chrome'u bağla

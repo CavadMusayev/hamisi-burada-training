@@ -1,0 +1,40 @@
+# SETUP LOGIN
+* MP3 oyna: "Uğurlu daxil oluram"
+* MP3 oyna: "Obyektə vururam"
+* Obyektə vur (XPath ilə): "//i[@class='navbar-tool-icon czi-user']"
+* "1" saniyə gözlə
+* MP3 oyna: "Obyektə vururam"
+* Obyektə vur (XPath ilə): "//a[@class='dropdown-item']/parent::div//*[@class='fa fa-sign-in mr-2']"
+* "1" saniyə gözlə
+
+# EMAIL DAXIL EDIREM
+* Obyektə vur (XPathi=bu dəyişgənin dəyəri): "E-poçt ünvanı xanası"
+* MP3 oyna: "Mətn yazıram"
+* Mətn yaz, klaviatura ilə: "mehseti@gmail.com"
+* "1" saniyə gözlə
+
+# SIFRE DAXIL EDIREM
+* Obyektə vur (XPathi=bu dəyişgənin dəyəri): "Şifrə xanası"
+* "1" saniyə gözlə
+* MP3 oyna: "Mətn yazıram"
+* Mətn yaz, klaviatura ilə: "987654"
+* "1" saniyə gözlə
+
+# SIFRENI GOSTERMEK UCUN OLAN GOZ SEKILLI DUYMEYE VURURAM
+* Obyektə vur (XPathi=bu dəyişgənin dəyəri): "Şifrəni göstər düyməsi"
+* "1" saniyə gözlə
+
+# MENI XATIRLA CHECKBOX-UNU SECIREM
+* MP3 oyna: "Obyektə vururam"
+* Obyektə vur (XPathi=bu dəyişgənin dəyəri): "Məni xatırla checkbox"
+* "2" saniyə gözlə
+* MP3 oyna: "Obyektə vururam"
+* Obyektə vur (XPath ilə): "//button[contains(text(), 'Giriş et')]"
+
+# VERIFY
+* YOXLA: obyekt ekranda OLDUĞUNU (XPath ilə): "//div[@class='toast-message' and contains(., 'Signed in successfully!')]"; tapilsa_ses="Mətn tapıldı"; tapilmazsa_ses="Mətn tapılmadı"
+* "3" saniyə gözlə
+
+# TEARDOWN
+* YOXLA: Əgər son test addımda xata göründü, testi xatalı durdur
+* MP3 oyna: "Sistem'dən Çıxış edirəm"

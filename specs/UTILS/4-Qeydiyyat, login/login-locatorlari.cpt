@@ -1,0 +1,8 @@
+# Uİ obyektlərin locatorları load et - Login
+   * Dəyişgən və dəyərini yadda saxla: "E-poçt ünvanı xanası" = "//div[contains(text(), 'E-poçt ünvanı yaz.')]/parent::div//input[@id='si-email']"
+   * Dəyişgən və dəyərini yadda saxla: "Şifrə xanası" = "//label[contains(text(), 'Şifrə')]/parent::div//input[@id='si-password']"
+   * Dəyişgən və dəyərini yadda saxla: "Şifrəni göstər düyməsi" = "//label[@class='password-toggle-btn']"
+   * Dəyişgən və dəyərini yadda saxla: "Məni xatırla checkbox" = "//*[contains(text(), 'Məni xatırla')]/parent::div//input[@id='remember']"
+   * Dəyişgən və dəyərini yadda saxla: "Qeydiyyatdan keç düyməsi" = "//button[contains(text(), 'Giriş et')]"
+
+ 

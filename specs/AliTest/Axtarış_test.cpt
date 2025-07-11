@@ -1,0 +1,61 @@
+// # Kateqoriyalarda sıralama siyahısını yoxlama
+
+// //Exercise
+//  * Test-case içində addım = "a"
+//  * Kateqoriyalar səhifəsinə giriş
+
+//  * Test-case içində addım = "b"
+//  * Qiymətlərin sıralanması
+
+//  //Verify
+ 
+//  * Test-case içində addım = "c"
+//  * Qiymətlərin azalan sıra ilə getdiyini yoxlayıram
+
+
+# Facebook sehifesini yoxlama
+//Exercise
+* Test-case içində addım = "a"
+* Sehifeye keçid
+
+//Verify
+*Adresin düzgünlüyünün yoxlanması
+* Test-case içində addım = "b"
+
+
+# X Səhifəsinin yoxlanılması
+//Exercise
+* Test-case içində addım = "a"
+* X Sehifeyesine keçid
+
+//Verify
+* Test-case içində addım = "b"
+*X-in Adresinin düzgünlüyünün yoxlanması
+
+# Instagram Səhifəsinin yoxlanılması
+//Exercise
+* Test-case içində addım = "a"
+* Instagram Sehifeyesine keçid
+
+//Verify
+* Test-case içində addım = "b"
+*Instagram Adresinin düzgünlüyünün yoxlanması
+
+# Youtube Səhifəsinin yoxlanılması
+//Exercise
+* Test-case içində addım = "a"
+* Youtube Sehifeyesine keçid
+
+//Verify
+* Test-case içində addım = "b"
+*Youtube Adresinin düzgünlüyünün yoxlanması
+
+
+# Tiktok Səhifəsinin yoxlanılması
+//Exercise
+* Test-case içində addım = "a"
+* Tiktok Sehifeyesine keçid
+
+//Verify
+* Test-case içində addım = "b"
+*Tiktok Adresinin düzgünlüyünün yoxlanması

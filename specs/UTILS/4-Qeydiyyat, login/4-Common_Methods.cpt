@@ -1,0 +1,15 @@
+# 4.1.1-User iconuna kursoru gətir
+   * Kursoru XPATH ilə hərəkət etdir "//i[@class='navbar-tool-icon czi-user']"
+
+# 4.1.2-Login iconuna daxil ol
+   * Obyektə vur (XPath ilə): "//div[@class='dropdown-menu']//a[1]"
+
+# 4.1.3-Email daxil et
+
+   * Mətn yaz, klaviatura ilə: "vepeh90719@avzong.com"
+
+# 4.1.4-Parol daxil et
+   * Mətn yaz, klaviatura ilə: "Password123456_"
+
+# 4.1.5-Daxil ol düyməsinə bas
+   * Obyektə vur (XPath ilə): "//button[contains(text(),'Giriş et')]"
