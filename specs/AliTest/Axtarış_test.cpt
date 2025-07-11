@@ -19,7 +19,7 @@
 * Sehifeye keçid
 
 //Verify
-*Adresin düzgünlüyünün yoxlanması
+* Adresin düzgünlüyünün yoxlanması
 * Test-case içində addım = "b"
 
 
@@ -30,7 +30,7 @@
 
 //Verify
 * Test-case içində addım = "b"
-*X-in Adresinin düzgünlüyünün yoxlanması
+* X-in Adresinin düzgünlüyünün yoxlanması
 
 # Instagram Səhifəsinin yoxlanılması
 //Exercise
@@ -58,4 +58,4 @@
 
 //Verify
 * Test-case içində addım = "b"
-*Tiktok Adresinin düzgünlüyünün yoxlanması
+* Tiktok Adresinin düzgünlüyünün yoxlanması
