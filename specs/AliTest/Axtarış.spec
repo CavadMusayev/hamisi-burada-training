@@ -6,7 +6,6 @@
 // * Kateqoriyalarda sıralama siyahısını yoxlama
 
  ## Facebook_test
-* "1" saniyə gözlə
  * Facebook sehifesini yoxlama
 
 
